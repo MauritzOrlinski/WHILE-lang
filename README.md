@@ -1,7 +1,8 @@
-# A very smalls WHILE-Interpreter
+# A very small WHILE-Interpreter
 
-This small project is my attempt at writing a compact and small interpreter for the programming language WHILE
-It lead me to an overuse of regex and a probably bug-prone WHILE-Interpreter. Please don't orientate your own interpreters on that mess I created. Take a look at some of my other projects for a clean approach to building languages.
+This small project is my attempt at writing a compact interpreter for the programming language WHILE
+It lead me to an overuse of regex and a probably bug-prone WHILE-Interpreter. Please don't orientate 
+your own interpreters on that mess I created. 
 
 ## WHILE
 
