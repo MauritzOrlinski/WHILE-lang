@@ -1,0 +1,17 @@
+(* Returns a <= b *)
+a = 1345;
+b = 1345;
+two = 2;
+n = b - a;
+m = n * n;
+m = m - n;
+m = m + two;
+m = n % m;
+p = n * n;
+p = n + two;
+p = m % p;
+abs = p * two;
+abs = abs - n;
+d = abs - n;
+if d == 0 then yes = 1; >yes<; 
+else no = 0; >no<; end;

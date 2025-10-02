@@ -1,0 +1,10 @@
+a = 8;
+b = 12;
+tmp = 0;
+zero = 0;
+while b != 0 do 
+  tmp = b + zero;
+  b = a % b;
+  a = tmp + zero;
+end;
+>a<

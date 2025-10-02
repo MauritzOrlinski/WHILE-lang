@@ -1,0 +1,9 @@
+x = 100;
+i = 1;
+y = 1;
+z = 2;
+while x != 0 do 
+  x = x - i;
+  y = y * z;
+  >y<;
+end
