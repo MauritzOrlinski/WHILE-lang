@@ -2,8 +2,14 @@ x = 100;
 i = 1;
 y = 1;
 z = 2;
+one = 1;
 while x != 0 do 
   x = x - i;
   y = y * z;
   >y<;
+  k = 10;
+  while k != 0 do 
+    >k<;
+    k = k - one;
+  end;
 end

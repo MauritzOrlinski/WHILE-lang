@@ -1,0 +1,52 @@
+n = 100;
+i = 2;
+
+zero = 0;
+one = 1;
+two = 2;
+
+delta1 = n - i;
+while delta1 != 0 do
+  delta1 = n - i;
+
+  p = 2;
+  sqr = p * p;
+
+  branch = 1;
+  mod = 1;
+
+  while branch != 0 do;
+    mod = 1;
+    x = sqr + zero;
+    y = i + zero;
+    flag = 0;
+    
+    while x != 0 do
+      if y == 0 then
+        flag = 1;
+        x = 0;
+      else
+        x = x - one;
+        y = y - one;
+      end;
+    end;
+
+    if flag == 0 then
+      mod = i % p;
+      if mod == 0 then
+        branch = 0;
+      else 
+        p = p + one;
+        sqr = p * p;
+        branch = 1;
+      end;
+    else 
+      branch = 0;
+    end; 
+  end; 
+  if mod == 0 then ; else 
+    >i<;
+  end;
+
+  i = i + one;
+end;

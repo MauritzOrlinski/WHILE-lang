@@ -1,17 +1,19 @@
-(* Returns a <= b *)
-a = 1345;
-b = 1345;
-two = 2;
-n = b - a;
-m = n * n;
-m = m - n;
-m = m + two;
-m = n % m;
-p = n * n;
-p = n + two;
-p = m % p;
-abs = p * two;
-abs = abs - n;
-d = abs - n;
-if d == 0 then yes = 1; >yes<; 
-else no = 0; >no<; end;
+
+one = 1;
+
+(* is x <= y *)
+x = 10;
+y = 9;
+flag = 1;
+
+while y != 0 do
+    if x == 0 then
+        flag = 0;
+        y = 0;
+    else
+        x = x - one;
+        y = y - one;
+    end;
+end;
+
+>flag<;
